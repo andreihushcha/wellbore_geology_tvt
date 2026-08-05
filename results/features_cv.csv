@@ -1,0 +1,8 @@
+predictor,pooled_real
+carry,14.717
+gbm[gr],14.99
+gbm[gr+geom],15.373
+gbm[gr+geom+band],15.249
+gbm[gr+geom+band+miss],15.26
+gbm[gr+geom+band+miss+corr],15.432
+"viterbi(pp=0.15,sp=0.6)",14.82
