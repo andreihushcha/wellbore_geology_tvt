@@ -1,10 +1,7 @@
-# Wellbore Geology (TVT) Prediction — Master Runbook (Phases A–E)
-
-One competition submission + one CS7643 project, from one codebase. 
+# Wellbore Geology (TVT) Prediction 
 
 ---
 
-## The one idea everything rests on
 TVT is the drill bit's **stratigraphic position** (where in the layer-cake it sits), not its depth. The well is *steered* to stay in a target zone, so TVT is **band-limited and mean-reverting**. Consequences, measured on real wells:
 - Following depth (Z) → RMSE 54–97 ft (useless). Geometry alone fails.
 - Carry-forward last known TVT → **7.5–15 ft**. This is the bar to beat.
